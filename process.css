@@ -9,8 +9,8 @@
 
 html {
     height: 100%;
-    background: #57bc90; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #57bc90, #2a0845); /* Chrome 10-25, Safari 5.1-6 */
+    background: #015249; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #6441A5, #2a0845); /* Chrome 10-25, Safari 5.1-6 */
 }
 
 body {
@@ -61,7 +61,7 @@ body {
     -moz-box-shadow: none !important;
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
-    border: 1px solid #77c9d4;
+    border: 1px solid #57bc90;
     outline-width: 0;
     transition: All 0.5s ease-in;
     -webkit-transition: All 0.5s ease-in;
@@ -72,7 +72,7 @@ body {
 /*buttons*/
 #msform .action-button {
     width: 100px;
-    background: #77c9d4;
+    background: #57bc90;
     font-weight: bold;
     color: white;
     border: 0 none;
@@ -83,7 +83,7 @@ body {
 }
 
 #msform .action-button:hover, #msform .action-button:focus {
-    box-shadow: 0 0 0 2px white, 0 0 0 3px #77c9d4;
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #57bc90;
 }
 
 #msform .action-button-previous {
@@ -172,6 +172,28 @@ body {
 /*marking active/completed steps green*/
 /*The number of the step and the connector before it = green*/
 #progressbar li.active:before, #progressbar li.active:after {
-    background: #77c9d4;
+    background: #57bc90;
     color: white;
+}
+
+
+/* Not relevant to this form */
+.dme_link {
+    margin-top: 30px;
+    text-align: center;
+}
+.dme_link a {
+    background: #FFF;
+    font-weight: bold;
+    color: #57bc90;
+    border: 0 none;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 5px 25px;
+    font-size: 12px;
+}
+
+.dme_link a:hover, .dme_link a:focus {
+    background: #C5C5F1;
+    text-decoration: none;
 }
